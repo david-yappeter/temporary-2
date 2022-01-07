@@ -1,0 +1,24 @@
+GET http://localhost:3000/api/users
+
+###
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "user_name": "test2",
+    "user_email": "tester2@gmail.com",
+    "user_address": "an addres2s",
+    "user_phone": "08521231232372"
+}
+
+###
+PUT http://localhost:3000/api/users/1
+Content-Type: application/json
+
+{
+    "user_id": 2,
+    "user_name": "test3",
+    "user_email": "tester3@gmail.com",
+    "user_address": "an aseghewgh",
+    "user_phone": "08521231232"
+}
